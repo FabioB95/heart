@@ -1,4 +1,4 @@
-import turtle 
+import turtle as t
 t=turtle.Turtle()
 s=turtle.Screen()
 
@@ -29,3 +29,7 @@ t.goto(-50,90)
 t.pendown()
 t.color("white")
 t.write("Espero que esto te haga felix", font=("Verdana", 10, "bold"))
+
+
+t.hideturtle()
+t.done()
